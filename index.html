@@ -1,74 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gianni Henry Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gianni Henry - Portfolio</title>
+  <link rel="stylesheet" href="/css/css/style.css"/>
 </head>
 <body>
-
-  <!-- Navigation -->
-  <nav>
-    <div class="nav-container">
-      <a href="#" class="logo">Gianni Henry</a>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="logo">Gianni Henry</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
-  <div class="container">
-
-    <!-- About Section -->
-   
-   <section class="about-section" id="about">
+  <main>
+    <!-- About Section (Task 2) -->
+    <section id="about" class="about-section">
       <div class="about-image">
-        <img src="\images\5C1E3C4B-3A20-49D9-934E-9D45C0164F13.jpeg" alt="Gianni Henry - Professional Photo">
+        <img src="images/IMG_0994.JPG" width="40%"alt="Gianni Henry - Professional Photo"/>
       </div>
       <div class="about-text">
         <h2>About Me</h2>
-        <p>My name is Gianni Henry. I’m an Economics major with a minor in Data Analysis, currently in my senior year of college. My studies focus on understanding how data can explain and predict real-world economic trends.</p>
-        <p>I’m passionate about financial markets and learning how smart investment strategies can build long-term wealth. Combining economics with data analysis allows me to approach problems with both a big-picture view and a detail-oriented mindset.</p>
-        <p>Outside the classroom, I’m a dedicated track and field athlete. Competing has taught me discipline, resilience, and time management qualities I bring to my academic and professional work. I enjoy exploring new cultures, meeting new people, and finding fresh perspectives that expand my thinking.</p>
+        <p>Hello! I’m Gianni, an Economics major with a Data Analytic minor. I love working with data to uncover economic insights and trends.</p>
       </div>
     </section>
 
-
-
-    <!-- Skills Section -->
-   <section class="skills-section" id="skills">
+    <!-- Skills Section (Task 1) -->
+    <section id="skills" class="skills-section">
       <h2>My Skills</h2>
       <div class="skills-container">
-        <div class="skill-card">
-          <h3>Web Development</h3>
-          <p>HTML & CSS (building and styling web pages)</p>
-        </div>
-        <div class="skill-card">
-          <h3>Data Analysis</h3>
-          <p>Data Visualization (Excel, Tableau, ArcGIS basics)</p>
-        </div>
-        <div class="skill-card">
-          <h3>Tools</h3>
-          <p>GitHub / Version Control</p>
-        </div>
-        <div class="skill-card">
-          <h3>Other Skills</h3>
-          <p>Problem-Solving, Teamwork, Leadership, Financial Markets</p>
-        </div>
-
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:g.m.henry@tcu.edu">g.m.henry@tcu.edu</a></p>
-      <p>LinkedIn / GitHub links here</p>
+        <div class="skill-card"><h3>Data Analytic</h3><p>Excel, Python, </p></div>
+        <div class="skill-card"><h3>GIS Mapping</h3><p>ArcGIS, spatial analysis</p></div>
+        <div class="skill-card"><h3>Research</h3><p>Economic trends, presentations</p></div>
+        <div class="skill-card"><h3>Communication</h3><p>Writing, teamwork, presenting</p></div>
+      </div>
     </section>
 
-  </div> <!-- End container -->
+    <!-- Projects Section (Task 4) -->
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <article class="project-card">
+          <h3>Class Website Project</h3>
+          <p>A simple website I built using HTML and CSS.</p>
+          <p><strong>Skills:</strong> HTML, CSS, Flexbox</p>
+        </article>
+        <article class="project-card">
+          <h3>Portfolio Planning</h3>
+          <p>Research and planning for my personal portfolio website.</p>
+          <p><strong>Skills:</strong> Research, design thinking</p>
+        </article>
+        <article class="project-card">
+          <h3>Future Project</h3>
+          <p>A placeholder for a project I plan to build this semester.</p>
+          <p><strong>Skills to learn:</strong> JavaScript, responsive design</p>
+        </article>
+      </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:g.m.henry@tcu.edu"> </a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/gianni-henry" target="_blank">linkedin.com/in/gianni-henry</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gianni Henry</p>
+  </footer>
 </body>
 </html>
