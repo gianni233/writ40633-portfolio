@@ -42,3 +42,5 @@ Texas Christian University
 ## Next Steps
 
 LAB12: Add JavaScript variables and basic interactivity
+
+live link to project: https://gianni233.github.io/40363-local-favorites-tracker/

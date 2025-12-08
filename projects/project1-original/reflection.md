@@ -21,3 +21,5 @@ I am most curious about learning CSS styling in depth and how to make my pages v
 ## 7. Support and Resources
 The most helpful resources so far have been hands-on practice in VS Code, the step-by-step lab instructions, and observing examples of semantic HTML structure. Going forward, I might need additional guidance on advanced accessibility features and more complex Git commands. I Think i should also come to more office hours.
 
+live link to my project: 
+https://gianni233.github.io/writ40633-portfolio/
